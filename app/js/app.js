@@ -2,8 +2,7 @@
 
 
 // Declare app level module which depends on filters, and services
-// Setter
-angular.module('myApp', [
+var myApp = angular.module('myApp', [
   'ngRoute',
   'myApp.filters',
   'myApp.services',

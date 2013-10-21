@@ -3,12 +3,12 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
-  .controller('LoginController', [function () {
+  .controller('LoginController', [function ($scope) {
 
     }])
-  .controller('HomeController', [function() {
+  .controller('HomeController', [function($scope) {
 
   }])
-  .controller('RegisterController', [function() {
+  .controller('RegisterController', [function($scope) {
 
   }]);
